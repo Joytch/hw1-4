@@ -1,0 +1,66 @@
+body {
+    background: url("img/ocean.jpg");
+    background-size: auto;
+    text-align: center;
+}
+
+.col {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    background: rgba(232, 215, 145, 0.96);
+    margin: 80px 5px;
+}
+
+.topblue {
+    background: rgb(11, 11, 82);
+    height: 150px;
+    width: 100%;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.topblue>.title {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.topblue>.price {
+    text-align: center;
+}
+
+.topblue>.price * {
+    display: inline-block;
+}
+
+.number {
+    font-size: 3em;
+}
+
+.btn {
+    border: 2px solid #fff689;
+    width: 150px;
+    margin: 0px auto;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 0.8em;
+    padding: 6px 0px;
+    margin-top: 10px;
+}
+
+.dollar {
+    position: relative;
+    top: -20px;
+    margin-left: 20px;
+}
+
+i {
+    color: #672929;
+    margin: auto;
+}
+
+hr {
+    width: 140Px;
+    margin-right: 25px;
+}
